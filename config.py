@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Telegram API credentials from environment variables
-API_ID = int(os.getenv('TELEGRAM_API_ID', '12345678'))
+API_ID = int(os.getenv('TELEGRAM_API_ID', ''))
 API_HASH = os.getenv('TELEGRAM_API_HASH', '')
 SESSION_STRING = os.getenv('TELEGRAM_SESSION_STRING', '')
 
